@@ -1,5 +1,6 @@
 function validEmail(str) {
-  //your JS code here.
+	let emailPattern=/^[a-zA-Z0-9. _%+-]+@[a-zA-Z0-9. -]+[a-zA-Z]{2,}$/;
+     return emailPattern.test(input)
 }
 
 // Do not change the code below.
